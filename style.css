@@ -1,0 +1,161 @@
+body {
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+#DBlock {
+    background-color: crimson;
+}
+
+.SInline {
+    background-color: greenyellow;
+}
+
+#inlineBlock {
+    background-color: dodgerblue;
+    display: inline-block;
+    width: 600px;
+}
+
+.p1 {
+    background-color: crimson;
+    
+}
+
+#p1a {
+    background-color: rgba(220, 20, 60, 0.39);
+}
+#container1 {
+    color: black;
+    background-color: dodgerblue;
+    width: 300px;
+    height: 100px;
+}
+#container2 {
+    color: black;
+    background-color: dodgerblue;
+    width: 300px;
+    height: 100px;
+    overflow: auto;
+}
+#quadrado{
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    margin-right: auto;
+
+}
+#quadrado1{
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    margin: auto;
+
+}
+#quadrado2{
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    margin-left: auto;
+
+}
+#cont2{
+    width: 640px;
+    height: 320px;
+    background-color: antiquewhite;
+    overflow: auto;
+}
+#contOverflow{
+    background-color: antiquewhite;
+    width: 300px;
+    height: auto;
+    margin: 5px;
+    display: inline-block;
+}
+#contNotOverflow{
+    background-color: antiquewhite;
+    width: 300px;
+    height: 320px;
+    float: left;
+    margin: 5px;
+    display: inline-block;
+}
+#div1{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    display: inline-block;
+    position: static;  
+}
+#div2{
+    position: relative;
+    left: 50px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: dodgerblue;
+}
+#div3{
+    position: fixed;
+    bottom: 30px;
+    right: 15px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color:gold;
+}
+#div4{
+    position: absolute;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: olive;
+    right: 500px;
+}
+#stick{
+    position: sticky;
+    background-color:rgb(100, 97, 97);
+    height: 35px;
+    top: 0px;
+}
+#pai{
+    background-color: aqua;
+    position: relative;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background-color: aqua;
+    float: right;
+}
+.square1{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    float: left;
+    background-color:blue;
+}
+#cont{
+    width: 500px;
+    height: 150px;
+    background-color: blueviolet;
+}
+.buttom{
+    border: 2px solid white;
+    float: left;
+    margin-top: 4px;
+    margin-left: 5px;
+}
+.linkBotao{
+    text-decoration: none;
+    color: white;
+}
+.linkBotao:hover{
+    text-decoration: none;
+    color: rgb(100, 97, 97);
+    background-color: white;
+    font-size: larger;
+    text-decoration: none;
+}

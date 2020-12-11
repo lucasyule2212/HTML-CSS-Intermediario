@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HTML Intermediário</title>
+</head>
+<body>   
+
+            <h1>Página de HTML Intermediário</h1>
+            <h3>Aprendendo sobre Display no CSS</h3> 
+
+            <div id="stick"> 
+                <span style="margin-left: 20px;">DIV STICKY(Esboço Menu)</span>
+                <div class="buttom"> <a href="https://github.com/lucasyule2212" class="linkBotao">GitHub</a></div>
+                <div class="buttom"> <a href="https://www.instagram.com/?hl=pt-br" class="linkBotao">Instagram</a></div>
+              
+            </div> 
+           
+        </div> 
+            <div>                       
+                    <h4>Legenda dos tipos de display:</h4>
+                     <div id="DBlock">Display Block:
+                        <br>
+                        <ul>
+                            <li>Utiliza de toda a extensao da página</li>
+                            <li>Pode alterar o comprimento e altura (width e height)</li>
+                            <li>Ex: Div e Parágrafos</li>
+                            <li>Nao funciona dentro de Divs ou Parágrafos, pois quebra o fluxo do "block"</li>
+                        </ul>
+                    </div>
+
+                    <span class="SInline">Display Inline:
+                    <ul>
+                        <li>Nao é possível alterar a altura ou comprimento(width e height)</li>
+                        <li>Ex: Span</li>
+                        <li>Funciona dentro de Divs ou Parágrafos, pois nao quebra o fluxo do "block"</li>
+                    </ul>
+
+                    </span>
+                         <span id="inlineBlock"  >Display Inline-Block:
+                    <ul>
+                        <li>Mantém o comportamento de Display Inline(Ex: span), porém pode alterar altura ou comprimento(width e height)</li>
+                        <li>Ex: Img</li>
+                        <li>Funciona dentro de Divs ou Parágrafos, pois nao quebra o fluxo do "block"</li>
+                    </ul>
+                    </span>
+            </div> 
+
+       
+        <div>    <hr>
+            <h3>Parágrafo com DIV no meio</h3>
+            <p class="p1" >
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo iste quos, sint libero omnis architecto<div id="p1a" ><strong>"DIV NO MEIO DO PARÁGRAFO"</strong></div>cum recusandae? Nobis animi, doloribus mollitia ea illum ratione. Minus sed hic natus consequatur.
+            </p>
+            <hr>
+        </div>
+
+        <div>    
+            <h3>Parágrafo com SPAN no meio</h3>
+            <p class="p1" ></p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo iste quos, sint libero omnis architecto<span class="SInline" ><strong>"SPAN NO MEIO DO PARÁGRAFO"</strong></span>cum recusandae? Nobis animi, doloribus mollitia ea illum ratione. Minus sed hic natus consequatur.
+            </p>
+            <hr>
+        </div>
+  
+  
+    <div>
+        <h3>Parágrafo com IMG no meio</h3>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, voluptate ut cumque <img src="Assets/GitHub-Mark-64px.png" alt="GitHub Logo" title="Logo do GitHub =D" style="width: 60px;">dolorem beatae et incidunt asperiores earum quas sed velit accusamus quae? Voluptatum dolorem esse earum modi facere ipsa.
+        </p>
+    </div>    
+    
+
+    <hr>
+    <h3>Overflow:</h3>
+    <p>Delimita um conteúdo a uma área!</p>
+    <div id="cont2">
+        <div id="contNotOverflow">
+            <h4>Conteúdo maior que a DIV(box azul)</h4>
+            <div id="container1">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil voluptas aperiam quibusdam quas eligendi praesentium maxime fuga excepturi fugit obcaecati deserunt saepe reprehenderit voluptate, sunt facilis! Ad adipisci ullam ut.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo quibusdam suscipit saepe expedita alias dolorem. Veniam iusto, consequuntur autem animi nihil dolore sed numquam quo praesentium cupiditate iure hic tempora?
+                </p>
+            </div>
+        </div>
+    
+    <div id="contOverflow">
+        <h4>Usando Overflow Scroll (auto)</h4>
+        <div id="container2">
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil voluptas aperiam quibusdam quas eligendi praesentium maxime fuga excepturi fugit obcaecati deserunt saepe reprehenderit voluptate, sunt facilis! Ad adipisci ullam ut.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo quibusdam suscipit saepe expedita alias dolorem. Veniam iusto, consequuntur autem animi nihil dolore sed numquam quo praesentium cupiditate iure hic tempora?
+            </p>
+        </div>
+    </div>
+    </div>
+    <hr>
+    <h3>Posicionamento horizontal de elementos:</h3>
+    <div id="quadrado2">Margin Left Auto</div>
+    <br>
+    <div id="quadrado1">Margin Auto</div>
+    <br>
+    <div id="quadrado">Margin Right Auto</div>
+
+    <hr>
+    <h3>Position:</h3>
+        <ul>
+            <li>Static</li>
+            <ul>
+                <li>Posicionado no Flow normal da page.</li>
+            </ul>
+            <li>Relative</li>
+            <ul>
+                <li>Posicionado no Flow normal da page.</li>
+                <li>Pode ser aplicado modificaçoes(Left,Right,Top,Bottom)</li>
+            </ul>
+            <li>Fixed</li>
+            <ul>
+                <li>Posicionado de acordo com a localizaçao indicada em relaçao a page inteira(Left,Right,Top,Bottom)</li>                
+            </ul>
+            <li>Absolute</li>
+            <ul>
+                <li>Posicionamento em referencia ao elemento PAI.</li>
+                <li>Pode ser aplicado modificaçoes</li>
+            </ul>
+            <li>Sticky</li>
+            <ul>
+                <li>Posicionamento em referencia ao elemento PAI.</li>
+                <li>Pode ser aplicado modificaçoes.</li>
+                <li>O elemento "sticky" nao sai da tela durante o scroll(ex:barra de menu de site).</li>
+            </ul>
+        </ul>   
+
+        <div id="pai"> DIV PAI
+            <div id="div1">Static</div>
+            <div id="div2">Relative</div>
+            <div id="div4">Absolute</div>
+        </div>   
+        
+        <div id="div3">Fixed</div>
+<hr>
+<h3>Float:</h3>
+<p>Alinha <strong>horizontalmente</strong> o elemento desejado com o <strong>PRÓXIMO</strong> elemento</p>
+<p>Obs: Se nao existir próximo elemento, a referencia é o PAI.</p>
+<br>
+<div id="cont">
+    <div class="square"></div>
+    <div class="square1"></div>
+</div>
+
+</body>
+</html>
