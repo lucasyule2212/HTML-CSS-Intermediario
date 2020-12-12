@@ -103,6 +103,7 @@ body {
     width: 100px;
     height: 100px;
     background-color:gold;
+    z-index: 1;
 }
 #div4{
     position: absolute;
@@ -113,9 +114,11 @@ body {
     right: 500px;
 }
 #stick{
+    z-index: 1;
     position: sticky;
     background-color:rgb(100, 97, 97);
     height: 35px;
+    width: 100%;
     top: 0px;
 }
 #pai{
@@ -158,4 +161,93 @@ body {
     background-color: white;
     font-size: larger;
     text-decoration: none;
+}
+.card{
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    border:2px solid red ;
+}
+.c0{
+    
+    display: block;
+    height: 300px;
+}
+.c1{
+    background-color: cornflowerblue;
+    line-height: 200px;
+}
+.c2{
+    background-color: crimson;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+
+}
+.c3{
+    width: 400px;
+    height: 100px;
+    float: left;
+
+}
+.c4{
+    width: 400px;
+    height:100px;
+    float: left;
+    clear:left;
+}
+
+.card1{
+    position: relative;
+    float: left;
+    clear: left;
+    width: 20%;
+    text-align: left;
+    border:2px solid red ;
+}
+.card2{
+    position: relative;
+    float: left;
+    clear: left;
+    width: 80%;
+    height: 80%;
+    text-align: left;
+    border:2px solid blue ;
+}
+.card3{
+    position: relative;
+    float: left;
+    clear: left;
+    width: 70%;
+    height: 70%;
+    text-align: left;
+    border:2px solid green ;
+}
+@media screen and (max-width:500px){
+
+    #stick{
+        z-index: 1;
+        text-align: center;
+        position: sticky;
+        background-color:rgb(100, 97, 97);
+        height: auto;
+        padding: 2px;
+        width: 100%;
+        top: 0px;
+    }
+
+    .buttom{
+        border: 2px solid white;
+        float: none;
+        margin-top: 4px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 4px;
+    }
+
+
 }

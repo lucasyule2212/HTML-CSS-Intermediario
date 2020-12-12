@@ -11,14 +11,13 @@
             <h1>Página de HTML Intermediário</h1>
             <h3>Aprendendo sobre Display no CSS</h3> 
 
-            <div id="stick"> 
-                <span style="margin-left: 20px;">DIV STICKY(Esboço Menu)</span>
-                <div class="buttom"> <a href="https://github.com/lucasyule2212" class="linkBotao">GitHub</a></div>
-                <div class="buttom"> <a href="https://www.instagram.com/?hl=pt-br" class="linkBotao">Instagram</a></div>
-              
-            </div> 
+    <div id="stick"> 
+     <span style="margin-left: 20px;">DIV STICKY(Esboço Menu)</span>
+        <div class="buttom"> <a href="https://github.com/lucasyule2212" class="linkBotao">GitHub</a></div>
+         <div class="buttom"> <a href="https://www.instagram.com/?hl=pt-br" class="linkBotao">Instagram</a></div>
+    </div> 
            
-        </div> 
+
             <div>                       
                     <h4>Legenda dos tipos de display:</h4>
                      <div id="DBlock">Display Block:
@@ -149,9 +148,75 @@
 <p>Obs: Se nao existir próximo elemento, a referencia é o PAI.</p>
 <br>
 <div id="cont">
-    <div class="square"></div>
-    <div class="square1"></div>
+    <div class="square">Float Right</div>
+    <div class="square1">Float Left</div>
 </div>
+
+<hr>
+<h3>Alinhamento Vertical:</h3>
+
+<div class="c0">
+<div class="card">
+    <div class="c1">
+        Utilizando "Line-Height"        
+    </div>
+</div>
+
+<div class="card">
+    <div class="c2">
+    Utilizando "Position"
+    </div>
+</div>
+
+<div class="c4" >
+    <ul>
+        Line-Height:
+        <li>Usa da altura da linha de uma div</li>
+        <li>"Gambiarra"</li>
+    </ul>
+        </div>
+    <div class="c3">
+    <ul>
+        Position:
+        <li>Usa da referencia do elemento PAI</li>
+        <li>Usa a ferramenta "Transform: Translate" para alinhar o conteúdo dentro da div conteúdo</li>
+    </ul>
+</div>
+</div>
+
+<hr>
+
+<div class="c0">
+<h3>Responsividade e Viewport:</h3>
+<ul>
+    Características de projeto para uma página responsiva:
+    <li>Medidas dos elementos em referencia aos elementos pai!(Usar tais medidas em porcentagem)</li>
+    <li>Para textos é recomendável o uso da medida "VW"</li>
+    Ex:
+    <br>
+    <div class="card1" >
+        20% da page(PAI=body)
+        <div class="card2">
+            80% da div pai(PAI=div card1)
+            <div class="card3">
+                70% da div pai
+                <br>
+                (PAI=div card2)
+            </div>
+        </div>
+    </div>
+</ul>
+</div>
+<h4>Media Queries:</h4>
+    <ul>
+        <li>
+            Utilizado para desenvolver a responsividade do layout da page em diferentes devices.
+        </li>
+        <li>
+            Utiliza <strong>"@media screen and (max-width: limiteDePixels)"</strong> 
+        </li>
+        <li>Mobile First: Fazer o layout da page para mobile primeiro, depois usar o <strong>Media </strong> para fazer a page responder em devices maiores. </li>
+    </ul>
 
 </body>
 </html>
