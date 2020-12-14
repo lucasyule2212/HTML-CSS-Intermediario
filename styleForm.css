@@ -1,0 +1,106 @@
+html{
+    height: 100%;
+    width: 100%;
+    font-family: monospace;
+}
+body{
+    text-align: justify;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(101, 38, 131);
+}
+.containerCover{
+    background-color: rgba(157, 85, 224, 0.568);
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.bgImg{
+    background-image: url(Assets/astronomy-1867616_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 90%;
+}
+.buttom {
+    border: 2px solid white;
+    float: right;
+    width: auto;
+    margin-top: 4px;
+    margin-left: 5px;
+    margin-right: 50px;
+    margin-bottom: 4px;
+}
+.linkBotao {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+}
+.linkBotao:hover{
+    text-decoration: none;
+    color: rgb(101, 38, 131);
+    background-color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+#stick{
+    z-index: 1;
+    position: sticky;
+    background-color:rgba(157, 85, 224, 0.568);
+    height: 35px;
+    width: 100%;
+    top: 0px;
+}
+#menu{
+    margin-left: 150px;
+    font-size: 2rem;
+    color: white;
+}
+.containerLeft{
+    width: 70%;
+    height: auto;
+    float: left;
+    position: absolute;
+    top: 30%;
+
+}
+.formulario1{
+    text-align: center;
+    color: white;
+    background-color:rgba(102, 38, 131, 0.425);
+    width: 50%;
+    float: right;
+}
+
+@media screen and (max-width:500px){
+ .bgImg{
+     height: 100%;
+ }
+ #stick{
+    z-index: 1;
+    text-align: center;
+    position: sticky;
+    height: auto;
+    width: 100%;
+    top: 0px;
+    
+}
+.containerLeft{
+    width: 85%;
+}
+#menu{
+    margin-left: auto;
+}
+.formulario1{
+    width: auto;
+}
+.buttom{
+    border: 2px solid white;
+    float: none;
+    margin-top: 4px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 4px;
+}
+}
